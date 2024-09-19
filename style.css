@@ -1,0 +1,29 @@
+.tree-view-container {
+  min-height: 100vh;
+  width: 350px;
+  background: rgb(12, 37, 138);
+  padding: 20px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.menu-list-container {
+  list-style: none;
+  padding-left: 20px;
+  margin: 0; /* for Reset margins */
+}
+
+.menu-item p {
+  margin: 0; /*Remove default margin */
+}
+
+.menu-item span {
+  cursor: pointer;
+}
